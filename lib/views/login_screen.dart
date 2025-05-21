@@ -14,7 +14,7 @@ class LoginScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final controller = LoginController(ref);
     final isPasswordVisible = ref.watch(isPasswordVisibleProvider);
-
+    // state and check the github
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
