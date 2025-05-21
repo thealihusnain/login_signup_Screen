@@ -18,6 +18,7 @@ class LoginScreen extends ConsumerWidget {
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
+
           padding: EdgeInsets.all(16),
           child: Column(
             children: [
